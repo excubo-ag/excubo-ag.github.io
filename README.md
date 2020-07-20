@@ -19,11 +19,7 @@
               });
               if (q.p !== undefined) {
                   q.p = '/'+ q.p.split('/')[1] + '?p=/' + q.p.split('/').slice(2).join('/')
-                  window.history.replaceState(null, null,
-                      l.pathname.slice(0, -1) + (q.p || '') +
-                      (q.q ? ('?' + q.q) : '') +
-                      l.hash
-                  );
+                  window.location.replace(q.p);
               }
           }
       }(window.location))
