@@ -18,7 +18,7 @@
                   q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
               });
               if (q.p !== undefined) {
-                  q.p = q.p.split('/')[0] + '?p=/' + q.p.split('/').slice(1).join('/')
+                  q.p = q.p.split('/')[0] + '?p=\/' + q.p.split('/').slice(1).join('/')
                   window.history.replaceState(null, null,
                       l.pathname.slice(0, -1) + (q.p || '') +
                       (q.q ? ('?' + q.q) : '') +
