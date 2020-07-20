@@ -19,7 +19,7 @@
               });
               if (q.p !== undefined) {
                   q.p = '/'+ q.p.split('/')[1] + '?p=\/' + q.p.split('/').slice(2).join('/')
-                  window.location.replace(q.p);
+                  window.location = q.p;
               }
           }
       }(window.location))
