@@ -21,3 +21,4 @@ excubo-ag contributes to the .NET ecosystem with a set of libraries:
 
 - [Analyzers.DependencyInjectionValidation](https://github.com/excubo-ag/Analyzers.DependencyInjectionValidation) ![Nuget](https://img.shields.io/nuget/v/Excubo.Analyzers.DependencyInjectionValidation) is a roslyn analyzer for validating the use of dependency injection.
 - [Analyzers.Annotations](https://github.com/excubo-ag/Analyzers.Annotations) ![Nuget](https://img.shields.io/nuget/v/Excubo.Analyzers.Annotations) is a set of attributes used by [Analyzers.DependencyInjectionValidation](https://github.com/excubo-ag/Analyzers.DependencyInjectionValidation).
+
