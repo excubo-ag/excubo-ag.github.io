@@ -16,6 +16,7 @@ excubo-ag contributes to the .NET ecosystem with a set of libraries:
 
 - [Blazor.Diagrams](https://github.com/excubo-ag/Blazor.Diagrams) ![Nuget](https://img.shields.io/nuget/v/Excubo.Blazor.Diagrams) is a Blazor-native component library for diagrams, such as flowcharts, UML, etc. A demo is available [here](https://excubo-ag.github.io/Blazor.Diagrams/).
 - [Blazor.Grids](https://github.com/excubo-ag/Blazor.Grids) ![Nuget](https://img.shields.io/nuget/v/Excubo.Blazor.Grids) is a Blazor-native component library for grids and diagrams. A demo is available [here](https://excubo-ag.github.io/Blazor.Grids/).
+- [Blazor.TreeViews](https://github.com/excubo-ag/Blazor.TreeViews) ![Nuget](https://img.shields.io/nuget/v/Excubo.Blazor.TreeViews) is a Blazor-native component library for tree views. A demo is available [here](https://excubo-ag.github.io/Blazor.TreeViews/).
 
 ## Roslyn
 
