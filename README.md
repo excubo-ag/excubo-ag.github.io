@@ -11,7 +11,7 @@ excubo-ag contributes to the .NET ecosystem with a set of libraries:
 - [Blazor.ScriptInjection](https://github.com/excubo-ag/Blazor.ScriptInjection) [![Nuget](https://img.shields.io/nuget/v/Excubo.Blazor.ScriptInjection)](https://www.nuget.org/packages/Excubo.Blazor.ScriptInjection/) brings the script tag to Blazor in a safe manner.
 - [Blazor.LazyStyleSheet](https://github.com/excubo-ag/Blazor.LazyStyleSheet) [![Nuget](https://img.shields.io/nuget/v/Excubo.Blazor.LazyStyleSheet)](https://www.nuget.org/packages/Excubo.Blazor.LazyStyleSheet/) makes lazy-loading of style sheets the easiest way of styling components.
 - [Blazor.Canvas](https://github.com/excubo-ag/Blazor.Canvas) [![Nuget](https://img.shields.io/nuget/v/Excubo.Blazor.Canvas)](https://www.nuget.org/packages/Excubo.Blazor.Canvas/) exposes the HTML Canvas API to C# developers with all the benefits of a C# API. A demo is available [here](https://excubo-ag.github.io/Blazor.Canvas/).
-- [Generators.Blazor](https://github.com/excubo-ag/Generators.Blazor) [![Nuget](https://img.shields.io/nuget/v/Excubo.Generators.Blazor)](https://www.nuget.org/packages/Excubo.Generators.Blazor/) is a source generator for improving performance in Blazor.
+- [Generators.Blazor](https://github.com/excubo-ag/Generators.Blazor) [![Nuget](https://img.shields.io/nuget/v/Excubo.Generators.Blazor)](https://www.nuget.org/packages/Excubo.Generators.Blazor/) is a source generator for improving performance in Blazor. The project also contains analyzers to detect common issues.
 
 ## Blazor components
 
