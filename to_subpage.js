@@ -10,17 +10,13 @@
 // When the single page app is loaded further down in this file,
 // the correct url will be waiting in the browser's history for
 // the single page app to route accordingly.
-(function (l) {
-    if (l.search) {
-        var q = {};
-        l.search.slice(1).split('&').forEach(function (v) {
-            var a = v.split('=');
-            q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
-        });
-        if (q.p !== undefined) {
-            // we modify the query now to redirect to the sub-page instead and pass the remaining path as another query
-            q.p = '/'+ q.p.split('/')[1] + '?p=\/' + q.p.split('/').slice(2).join('/')
-            window.location = q.p;
-        }
-    }
+(function(l) {
+if (l.search[1] === '/' ) {
+  var decoded = l.search.slice(1).split('&').map(function(s) { 
+    return s.replace(/~and~/g, '&')
+  }).join('?');
+  window.history.replaceState(null, null,
+      l.pathname.slice(0, -1) + decoded + l.hash
+  );
+}
 }(window.location))
